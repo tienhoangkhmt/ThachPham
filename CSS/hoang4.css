@@ -1,0 +1,25 @@
+.abc{
+    text-decoration: overline;
+    text-indent: 20px;
+    text-shadow: green 2px 3px 4px,gray 2px 3px 4px;
+    text-transform: capitalize;
+}
+.abc1{
+    text-decoration: underline;
+    text-shadow: green 2px 3px 4px,gray 2px 3px 4px;
+    text-transform: lowercase;
+}
+.abc2{
+    text-decoration: line-through;
+    text-transform: uppercase;
+    text-shadow: red 2px 3px 4px,gray 2px 3px 4px;
+}
+.abc3{
+    text-decoration: none;
+    text-transform: none;
+    text-shadow: darkblue 2px 3px 4px,gray 2px 3px 4px;
+}
+.abc4{
+    text-decoration: overline;
+    text-shadow: gold 2px 3px 4px,gray 2px 3px 4px;
+}

@@ -1,0 +1,20 @@
+h1{
+    color: aqua;
+    background: aliceblue;
+}
+.a1{
+    color: blueviolet;
+    background: chartreuse;
+}
+p{
+    color: aqua;
+    background: aliceblue;
+}
+#hue ul  li ul > li {
+    color: red;
+    background: aqua;
+}
+#dao{
+    color: brown;
+    background: beige;
+}

@@ -1,0 +1,35 @@
+#px{
+    width: 50px;
+    height: 70px;
+    background-color: darkgreen ;
+}
+#pt{
+    width: 50pt;
+    height: 70pt;
+    background-color: aquamarine;
+}
+#hi{
+    width: 50%;
+    height: 70%;
+    background-color: aquamarine;
+}
+#atb{
+    width: 50em;
+    height: 70em;
+    background-color: aquamarine;
+}
+#kt {
+    width: 50rem;
+    height: 70rem;
+    background-color: aquamarine;
+}
+#uy{
+   width: 70px;
+    height: 70px;
+    background-color:red;
+}
+#ty{
+    width: 50%;
+    height: 70%;
+    background-color: aquamarine;
+}
