@@ -1,0 +1,19 @@
+.name{
+    background-color: #e8e8e8;
+    border: 1px solid gainsboro;
+    display: inline;
+}
+.student{
+    background-color: aqua;
+    display: block;
+}
+.list{
+    width: 60%;
+    margin: 0 auto;
+    display: table;
+}
+.row{
+    display: table-cell;
+    background: aqua;
+    border: 1px solid;
+}

@@ -1,0 +1,21 @@
+.abc {
+    width: 960px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 2em;
+}
+#bs{
+    background-color: gold;
+    width: 560px;
+    height: 300px;
+    float: left;
+}
+#b1{
+    background-color: red;
+    width: 400px;
+    float: right;
+    height: 300px;
+}
+.c1{
+    clear: both;
+}

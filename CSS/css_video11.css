@@ -1,0 +1,28 @@
+#1{
+    width: 500px;
+    height: 500px;
+    padding: 15px;
+    background: darkgoldenrod;
+    border: 5px solid gold;
+}
+#2{
+    width: 350px;
+    height: 154px;
+    padding: 80px;
+    background-color: gainsboro;
+    border: 5px solid black;
+}
+#3{
+    width: 157px;
+    height: 154px;
+    padding: 40px;
+    background-color: gainsboro;
+    border: 10px solid black;
+}
+#4{
+    width: 540px;
+    height: 154px;
+    padding: 80px;
+    background-color: gainsboro;
+    border: 30px solid fuchsia;
+}

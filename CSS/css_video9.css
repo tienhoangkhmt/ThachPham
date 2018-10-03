@@ -1,0 +1,13 @@
+div{
+    width: 100px;
+    height: 100px;
+}
+#box1{
+    background: darkgreen;
+}
+#box2{
+    background: green;
+    margin: 40px 0 0 0 ;
+    border: 5px groove gainsboro;
+    padding: 20px;
+}
