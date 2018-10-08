@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nguyên Tien Hoang</title>
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            font-family: sans-serif;
+            color: chartreuse;
+        }
+        #row ul{
+            list-style-type: none;
+            background: brown;
+            text-align: center;
+        }
+        #row ul li{
+            color: silver;
+            display: inline-table;
+            width: 120px;
+            height: 40px;
+            line-height: 40px;
+            position: relative;
+        }
+        #row ul li a{
+            color: cornflowerblue;
+            display: block;
+            text-decoration: none;
+        }
+        #row ul li a:hover{
+            background: white;
+            color: black;
+        }
+        #row ul li> .sub{
+            display: none;
+        }
+        #row ul li:hover .sub{
+            display: block;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div id="row">
+        <ul>
+          <li><a href="#">Văn Hóa</a></li>
+            <li><a href="#">Thể Thao</a>
+                <ul class="sub">
+                    <li><a href="#">Bóng Đá</a></li>
+                    <li><a href="#">Bóng Rổ</a></li>
+                    <li><a href="#">Bóng Chuyền</a></li>
+                    <li><a href="#">Bóng Bàn</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Gỉai Trí</a></li>
+            <li><a href="#">Kinh Tế</a></li>
+            <li><a href="#">Gíao Dục</a></li>
+        </ul>
+    </div>
+</body>
+</html>

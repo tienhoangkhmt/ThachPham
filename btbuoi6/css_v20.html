@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NGUYEN tien hoang</title>
+    <style type="text/css" >
+        boy{
+            font-family: sans-serif;
+            font-size: 15px;
+        }
+        #row1 ul{
+            background: cornflowerblue;
+            width: 250px;
+            padding: 0;
+            list-style-type: none;
+        }
+        #row1 ul li{
+            width: auto;
+            height: 40px;
+            line-height: 40px;
+            border-bottom: 1px solid green;
+            padding: 0 1em;
+            position: relative;
+        }
+        #row1 ul li a{
+            text-decoration: none;
+            color: green;
+            font-weight: bold;
+            display: block;
+        }
+      #row1 ul li:hover{
+          background: white;
+      }
+        #row1 .sub1 {
+            position: absolute;
+            left: 250px;
+            top: 0;
+            display: none;
+        }
+        #row1 ul li:hover  .sub1{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div id="row1">
+<ul>
+    <li><a href="#">Văn Hóa</a></li>
+    <li><a href="#">Thể Thao</a>
+        <ul class="sub1">
+            <li><a href="#"></a>A1</li>
+            <li><a href="#"></a>A2</li>
+            <li><a href="#"></a>A3</li>
+            <li><a href="#"></a>A4</li>
+            <li><a href="#"></a>A5</li>
+        </ul>
+    </li>
+    <li><a href="#">Gỉai Trí</a></li>
+    <li><a href="#">Kinh Tế</a></li>
+    <li><a href="#">Gíao Dục</a></li>
+</ul>
+</div>
+</body>
+</html>
